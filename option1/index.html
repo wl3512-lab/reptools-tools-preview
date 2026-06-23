@@ -39,10 +39,7 @@
   .tab.active{background:var(--hazard);color:var(--on-hazard);border-color:var(--ink);box-shadow:4px 4px 0 var(--ink)}
 
   /* ============ SHARED TOOL BODY (identical across versions) ============ */
-  .barcode{height:30px;max-width:1200px;margin:2.2rem auto 2.4rem;background:repeating-linear-gradient(90deg,
-    var(--bone) 0 2px,transparent 2px 4px,var(--bone) 4px 7px,transparent 7px 8px,var(--bone) 8px 9px,transparent 9px 13px);opacity:.22}
-
-  main{padding-bottom:4rem}
+  main{padding-bottom:4rem;padding-top:2.4rem}
   .section{display:none;max-width:820px;margin:0 auto;padding:0 1.5rem}
   .section.active{display:block}
 
@@ -124,8 +121,6 @@
     <button class="tab" data-section="convert" role="tab">🔗 Convert</button>
     <button class="tab" data-section="calc" role="tab">🧮 Calculators</button>
   </div>
-
-  <div class="barcode" aria-hidden="true"></div>
 
   <!-- ===== shared panels (identical to Layout 3) ===== -->
   <section id="track" class="section active">
